@@ -15,8 +15,8 @@
     RewriteRule ^ %1 [L,R=301]
 
     RewriteRule ^(.*)/$ //$1 [L,R=301]
-    RewriteBase /templates/
-    RewriteRule ^(.*)/$ /templates/$1 [L,R=301]
+    # RewriteBase /templates/
+    # RewriteRule ^(.*)/$ /templates/$1 [L,R=301]
 
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d

@@ -10,7 +10,7 @@ import Laravel9 from './components/Laravel9'
 
 export default new VueRouter({
     mode: 'history',
-    base : 'templates',
+    // base : 'templates',
     routes: [
         {
             path: '/home',

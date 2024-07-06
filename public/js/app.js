@@ -2252,7 +2252,7 @@ var render = function render() {
     staticStyle: {
       "background-color": "#FFCC80"
     }
-  }, [_vm._v("Hello")]), _vm._v(" "), _c("v-card-text", [_c("p", [_vm._v("some transcations & logics here....")])])], 1);
+  }, [_vm._v("Hello")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("testing")]), _vm._v(" "), _c("v-card-text", [_c("p", [_vm._v("some transcations & logics here....")])])], 1);
 };
 var staticRenderFns = [];
 render._withStripped = true;
